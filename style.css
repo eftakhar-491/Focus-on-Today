@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(72, 163, 0, 0.07);
+    margin: 0;
+}
+.heading{
+    font-family: poppins;
+    font-size: 64px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgba(72, 163, 0, 1);
+}
+.heading span{
+    color: rgba(97, 72, 28, 1);
+}
+.main-container{
+    background-color: rgba(251, 251, 251, 1);
+    max-width: 660px;
+    margin-top: 0px;
+
+    margin-inline: auto;
+margin-top: 0;    
+padding: 20px 50px;
+margin-bottom: 30px;
+}
+.main-container h3{
+font-family: poppins;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: rgba(0, 0, 0, 1);
+margin-top: 0 ;
+}
+.main-container h3 img{
+    position: relative;
+top: 15px;
+margin-left: 5px;
+
+}
+.subheading{
+    font-family: poppons;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+color: rgba(133, 133, 133, 1);
+}
+.progress-bar{
+    max-width: 574px;
+height: 30px;
+border-radius: 15px;
+background-color: rgba(72, 163, 0, 0.1);
+}
+.progress{
+  
+height: 30px;
+border-radius: 15px;
+background-color: rgba(72, 163, 0, 1);
+}
+.data{
+    overflow: hidden;
+    padding-left: 18px;
+    position: relative;
+    top: 50%;
+    left: 2%;
+    transform: translate(0%, -50%);
+}
+.warning{
+    font-size: 14px;
+    color: rgba(255, 81, 81, 1);
+    font-weight: 400;
+    line-height: 21px;
+    visibility: hidden;
+}
+.text-fild{
+    width: 100%;
+    height: 70px;
+    border: 2px solid rgba(97, 72, 28, 0.3);
+    border-radius: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.checkbox{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid rgba(97, 72, 28, 0.3);
+    flex-shrink: 0;
+}
+
+.text-fild input{
+    width: 80%;
+    height: 80%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-left: 16px;
+    background-color: transparent;
+
+}
+.checkbox-active{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(72, 163, 0, 1);
+    
+}
+.checkbox-active img {
+    width: 100%;
+    height: 100%;
+    transform: scale(.6);
+}
+
+.delete{
+    
+    text-decoration: line-through;
+    text-decoration-color: rgba(72, 163, 0, 1);
+    color: rgba(72, 163, 0, 1);
+}
+.quote{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+.signeture{
+    font-size: 10px;
+    text-align: center;
+    line-height: 15px;
+    font-weight: 500;
+    color: rgba(133, 133, 133, 1);
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
