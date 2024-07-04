@@ -133,7 +133,7 @@ body {
   margin-bottom: 20px;
 }
 
-@media (max-width: 410px) {
+@media (max-width: 440px) {
   .heading {
     font-size: 45px;
   }
