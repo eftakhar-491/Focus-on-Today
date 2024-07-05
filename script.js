@@ -16,6 +16,8 @@ let y = 0;
 let z = 0;
 let sum = 0;
 
+localStorage.setItem("data", '["", "", ""]');
+
 goal1.value = JSON.parse(localStorage.getItem("data"))[0];
 goal2.value = JSON.parse(localStorage.getItem("data"))[1];
 goal3.value = JSON.parse(localStorage.getItem("data"))[2];
